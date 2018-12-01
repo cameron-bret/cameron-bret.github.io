@@ -1,20 +1,24 @@
 .mainMenu {
     color: black;
+    background: white;
     display: flex;
     list-style: none;
     text-decoration: none;
     justify-content: space-between;
     flex-direction: column-reverse;
-    align-items: center;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 20px;
-    height: 500px;
-    border: 1px solid black;
+    height: 425px;
     width: 380px;
 }
 
 a {
     color: black;
-    font-size: 35pt;
+    font-size: 32pt;
+
     list-style: none;
     text-decoration: none;
     font-family: omnes-pro;
@@ -22,20 +26,22 @@ a {
 }
 
 span {
-    color: blue;
+    color: red;
 }
 
 .socialMedia {
-    border: 1px solid black;
+    background: blue;
     padding: 200px 0px 0px 20px;
     height: 160px;
     width: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column-reverse;
     align-items: flex-start;
     align-items: center;
-    align-content: space-between;
 }
 
 
