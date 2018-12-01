@@ -11,26 +11,24 @@
     top: 0;
     left: 0;
     padding: 20px;
-    height: 425px;
+    height: 375px;
     width: 380px;
 }
 
 a {
     color: black;
     font-size: 32pt;
-
     list-style: none;
     text-decoration: none;
     font-family: omnes-pro;
-    border: 1px solid black;
 }
 
 span {
-    color: red;
+    color: #00a0df;
 }
 
 .socialMedia {
-    background: blue;
+    background: #00a0df;
     padding: 200px 0px 0px 20px;
     height: 160px;
     width: 400px;
